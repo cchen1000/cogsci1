@@ -5,7 +5,7 @@ export default class StorageTest extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      seconds: 5,
+      seconds: 60,
       words: randomWords(30),
       value: '',
       playing: true,
@@ -40,7 +40,13 @@ export default class StorageTest extends Component {
   }
 
   seeResults = () => {
-    alert("You got " + this.state.correct + " correct");
+    let msg;
+    if (this.state.correct >= 5 && this.state.correct <=9) 
+      msg = "Your working memory span is average (5-9 items)."
+    else if (this.state.correct < 5) 
+      msg = "Your working memory span is below average. Grouping items into a meaningful could be a good idea."
+    else msg = "Your working memory is very good!"
+    alert("You got " + this.state.correct + " correct.\n" + msg);
     window.location.reload();
   }
 
