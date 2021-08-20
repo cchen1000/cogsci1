@@ -2,37 +2,69 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App {
   background-color: #282c34;
+  background-image: url(cognitive-science.png) ;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(10px + 10vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.game-background {
+  background-color: #63909c;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  text-align: center;
+  padding-bottom: 50px;
+  color: black;
+  font-size: 24px;
+}
+
+input {
+  width: 150px;
+  height: 25px;
+ }
+
+.author {
+  font-size: 20px;
+  padding-top: 50px;
+}
+
+.button-wrapper {
+  height: 100px;
+  align-items: center;
+}
+
+.game-button {
+  width: 150px;
+  height: 40px;
+  display: inline;
+  margin-left: 50px;
+  margin-right: 50px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.App-link {
+  color: #63909c;
+}
+
+.word-wrapper {
+  
 }
