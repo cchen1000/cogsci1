@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/cogsci1/static/css/main.b60df85d.chunk.css",
+    "main.js": "/cogsci1/static/js/main.136fbc7a.chunk.js",
+    "main.js.map": "/cogsci1/static/js/main.136fbc7a.chunk.js.map",
+    "runtime-main.js": "/cogsci1/static/js/runtime-main.f684992c.js",
+    "runtime-main.js.map": "/cogsci1/static/js/runtime-main.f684992c.js.map",
+    "static/js/2.075444cf.chunk.js": "/cogsci1/static/js/2.075444cf.chunk.js",
+    "static/js/2.075444cf.chunk.js.map": "/cogsci1/static/js/2.075444cf.chunk.js.map",
+    "static/js/3.a587a4db.chunk.js": "/cogsci1/static/js/3.a587a4db.chunk.js",
+    "static/js/3.a587a4db.chunk.js.map": "/cogsci1/static/js/3.a587a4db.chunk.js.map",
+    "index.html": "/cogsci1/index.html",
+    "static/css/main.b60df85d.chunk.css.map": "/cogsci1/static/css/main.b60df85d.chunk.css.map",
+    "static/js/2.075444cf.chunk.js.LICENSE.txt": "/cogsci1/static/js/2.075444cf.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/cogsci1/static/media/cognitive-science.9e17c03b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f684992c.js",
+    "static/js/2.075444cf.chunk.js",
+    "static/css/main.b60df85d.chunk.css",
+    "static/js/main.136fbc7a.chunk.js"
+  ]
+}
